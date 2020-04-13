@@ -2,20 +2,20 @@ package com.dancesar.algamoney.api.model;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import java.io.Serializable;
+import javax.persistence.*;
 
-@Entity
-@Table(name = "categoria")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode
+@Entity
+@Table(name = "categoria")
 public class Categoria{
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY, HttpServletResponse response)
     private Long id;
     private String nome;
 
