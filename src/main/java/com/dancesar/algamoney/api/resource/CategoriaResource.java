@@ -10,6 +10,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import javax.servlet.http.HttpServletResponse;
 import java.net.URI;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/categorias")
@@ -34,7 +35,8 @@ public class CategoriaResource {
     }
 
     @GetMapping("/{id}")
-    public Categoria buscarPeloCodigo(@PathVariable Long id){
-        return categoriaRepository.findById(id).get();
+    public ResponseEntity<Categoria> buscarPeloCodigo(@PathVariable Long id){
+        Optional<Categoria> categoria = this.categoriaRepository.findById(id);
+        return categoria.isPresent() ? ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();
     }
 }
