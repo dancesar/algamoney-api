@@ -14,11 +14,14 @@ import java.io.Serializable;
 @EqualsAndHashCode
 @Entity
 @Table(name = "pessoa")
-public class Pessoa implements Serializable {
+public class Pessoas implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotNull
+    private String nome;
 
     @Embedded
     private Endereco endereco;
