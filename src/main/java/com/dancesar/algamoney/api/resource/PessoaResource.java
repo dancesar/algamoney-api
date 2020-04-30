@@ -3,6 +3,7 @@ package com.dancesar.algamoney.api.resource;
 import com.dancesar.algamoney.api.event.RecursoCriadoEvent;
 import com.dancesar.algamoney.api.model.Pessoas;
 import com.dancesar.algamoney.api.repository.PessoaRepository;
+import com.dancesar.algamoney.api.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.http.HttpStatus;
@@ -20,6 +21,9 @@ public class PessoaResource {
 
     @Autowired
     private PessoaRepository pessoaRepository;
+
+    @Autowired
+    private PessoaService pessoaService;
 
     @Autowired
     private ApplicationEventPublisher publisher;
@@ -47,4 +51,11 @@ public class PessoaResource {
     public void remover(@PathVariable Long id){
         this.pessoaRepository.deleteById(id);
     }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Pessoas> atualizar(@PathVariable Long id, @Valid @RequestBody Pessoas pessoas){
+        Pessoas pessosSalva = pessoaService.atualizar(id, pessoas);
+        return ResponseEntity.ok(pessosSalva);
+    }
+
 }
