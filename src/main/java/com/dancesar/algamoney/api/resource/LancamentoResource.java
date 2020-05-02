@@ -4,6 +4,7 @@ import com.dancesar.algamoney.api.event.RecursoCriadoEvent;
 import com.dancesar.algamoney.api.exceptionhandler.AlgamoneyExceptionHandler;
 import com.dancesar.algamoney.api.model.Lancamento;
 import com.dancesar.algamoney.api.repository.LancamentoRepository;
+import com.dancesar.algamoney.api.repository.filter.LancamentoFilter;
 import com.dancesar.algamoney.api.service.LancamentoService;
 import com.dancesar.algamoney.api.service.exception.PessoaInexistenteOuInativoException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,8 +38,9 @@ public class LancamentoResource {
     private MessageSource messageSource;
 
     @GetMapping
-    public List<Lancamento> listar(){
-        return lancamentoRepository.findAll();
+    public List<Lancamento> pesquisar(LancamentoFilter lancamentoFilter){
+
+        return lancamentoRepository.filtrar(lancamentoFilter);
     }
 
     @GetMapping("/{id}")
