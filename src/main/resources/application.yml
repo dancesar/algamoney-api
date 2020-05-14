@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:15432/algamoney-api
+    password: Postgres2019!
+    username: postgres
+  jpa:
+    show-sql: true
+    database: POSTGRESQL
+    hibernate:
+    ddl-auto: none
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+  jackson:
+    date-format: yyyy-MM-dd
+    deserialization:
+      fail-on-unknown-properties: true
