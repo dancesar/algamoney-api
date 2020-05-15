@@ -7,13 +7,17 @@ spring:
     url: jdbc:postgresql://localhost:15432/algamoney-api
     password: Postgres2019!
     username: postgres
+    hikari:
+      connectionTimeout: 30000
+      idleTimeout: 600000
+      maxLifetime: 1800000
   jpa:
-    show-sql: true
     database: POSTGRESQL
+    show-sql: true
     hibernate:
-    ddl-auto: none
-    dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: none
+      dialect: org.hibernate.dialect.PostgreSQLDialect
   jackson:
     date-format: yyyy-MM-dd
     deserialization:
-      fail-on-unknown-properties: true
+       fail-on-unknown-properties: true
