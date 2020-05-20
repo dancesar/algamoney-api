@@ -5,7 +5,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:15432/algamoney-api
-    password: Postgres2019!
+    password: Postgres2020!
     username: postgres
     hikari:
       connectionTimeout: 30000

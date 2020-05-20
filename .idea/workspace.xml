@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e08f3213-00fe-462f-8675-446ac319cc79" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
@@ -13,6 +32,78 @@
       <change beforePath="$PROJECT_DIR$/algamoney-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algamoney-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/ResourceServerConfig.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
+<<<<<<< Updated upstream
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algamoney-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algamoney-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/.factorypath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algamoney-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algamoney-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Categoria_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Categoria_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Endereco_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Endereco_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Lancamento_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Lancamento_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Pessoas_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/model/Pessoas_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.dancesar.algamoney-api/algamoney-api/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.dancesar.algamoney-api/algamoney-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/AlgamoneyApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/AlgamoneyApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/event/RecursoCriadoEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/event/RecursoCriadoEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/event/listener/RecursoCriadoLiestener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/event/listener/RecursoCriadoLiestener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/exceptionhandler/AlgamoneyExceptionHandler$Erro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/exceptionhandler/AlgamoneyExceptionHandler$Erro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/exceptionhandler/AlgamoneyExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/exceptionhandler/AlgamoneyExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Categoria_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Categoria_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Endereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Endereco_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Endereco_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Lancamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Lancamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Lancamento_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Lancamento_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Pessoas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Pessoas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Pessoas_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/Pessoas_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/TipoLancamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/model/TipoLancamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/CategoriaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/CategoriaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/LancamentoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/LancamentoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/PessoaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/PessoaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/filter/LancamentoFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/filter/LancamentoFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/lancamento/LancamentoRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/lancamento/LancamentoRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/lancamento/LancamentoRepositoryQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/repository/lancamento/LancamentoRepositoryQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/CategoriaResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/CategoriaResource.class" afterDir="false" />
+>>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/LancamentoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/LancamentoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/PessoaResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/PessoaResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/service/LancamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/service/LancamentoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/service/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/service/PessoaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/service/exception/PessoaInexistenteOuInativoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/service/exception/PessoaInexistenteOuInativoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V01__criar_e_registrar_categorias.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V01__criar_e_registrar_categorias.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V02__criar_tabela_pessoa.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V02__criar_tabela_pessoa.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V03__criar_tabela_e_registrar_lancamentos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V03__criar_tabela_e_registrar_lancamentos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dancesar/algamoney/api/AlgamoneyApiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dancesar/algamoney/api/AlgamoneyApiApplicationTests.class" afterDir="false" />
+>>>>>>> d9b19116debd403958249b061953681c36f106a9
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,18 +201,44 @@
       <workItem from="1589492270382" duration="6909000" />
       <workItem from="1589502873432" duration="5256000" />
       <workItem from="1589513933681" duration="4979000" />
+<<<<<<< HEAD
       <workItem from="1589830106534" duration="27132000" />
+=======
+<<<<<<< Updated upstream
+      <workItem from="1589830106534" duration="10462000" />
+=======
+      <workItem from="1589661647449" duration="256000" />
+      <workItem from="1589662699639" duration="5024000" />
+      <workItem from="1589685587832" duration="3198000" />
+>>>>>>> Stashed changes
+>>>>>>> d9b19116debd403958249b061953681c36f106a9
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="1894" y="160" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1589916394961">
       <screen x="0" y="0" width="2806" height="748" />
     </state>
     <state x="1894" y="160" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.2806.748@0.0.2806.748" timestamp="1589916394961" />
+=======
+<<<<<<< Updated upstream
+>>>>>>> d9b19116debd403958249b061953681c36f106a9
     <state width="1440" height="244" key="GridCell.Tab.0.bottom" timestamp="1589840172705">
       <screen x="0" y="0" width="2806" height="748" />
     </state>
@@ -172,9 +289,62 @@
     <state width="1440" height="244" key="GridCell.Tab.1.right/0.0.2806.748@0.0.2806.748" timestamp="1589840172707" />
     <state x="322" y="18" key="SettingsEditor" timestamp="1589220312174">
       <screen x="0" y="0" width="1366" height="748" />
+=======
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.0.bottom/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286963" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304957" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.0.center/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286963" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304956" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1589663896644">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.0.left/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286963" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304956" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896644" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.0.right/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286963" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304956" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state width="1878" height="290" key="GridCell.Tab.1.bottom" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.1.bottom/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286964" />
+    <state width="1398" height="230" key="GridCell.Tab.1.bottom/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304957" />
+    <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state width="1878" height="290" key="GridCell.Tab.1.center" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.1.center/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286964" />
+    <state width="1398" height="230" key="GridCell.Tab.1.center/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304957" />
+    <state width="1878" height="290" key="GridCell.Tab.1.center/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state width="1878" height="290" key="GridCell.Tab.1.left" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.1.left/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286964" />
+    <state width="1398" height="230" key="GridCell.Tab.1.left/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304957" />
+    <state width="1878" height="290" key="GridCell.Tab.1.left/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state width="1878" height="290" key="GridCell.Tab.1.right" timestamp="1589663896645">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1366" height="192" key="GridCell.Tab.1.right/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589595286964" />
+    <state width="1398" height="230" key="GridCell.Tab.1.right/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589184304957" />
+    <state width="1878" height="290" key="GridCell.Tab.1.right/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589663896645" />
+    <state x="2373" y="26" key="SettingsEditor" timestamp="1589685960778">
+      <screen x="1920" y="0" width="1920" height="1080" />
+>>>>>>> Stashed changes
     </state>
     <state x="322" y="18" key="SettingsEditor/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589220312174" />
     <state x="1590" y="84" key="SettingsEditor/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589214488079" />
+<<<<<<< HEAD
     <state width="1023" height="456" key="SwitcherDM" timestamp="1589914616552">
       <screen x="0" y="0" width="2806" height="748" />
     </state>
@@ -188,5 +358,28 @@
       <screen x="0" y="0" width="2806" height="748" />
     </state>
     <state x="346" y="69" width="672" height="678" key="search.everywhere.popup/0.0.2806.748@0.0.2806.748" timestamp="1589912386713" />
+=======
+    <state x="2373" y="26" key="SettingsEditor/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589685960778" />
+    <state width="700" height="643" key="SwitcherDM" timestamp="1589679487204">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589499101757" />
+<<<<<<< Updated upstream
+    <state x="346" y="69" width="672" height="678" key="search.everywhere.popup" timestamp="1589836468485">
+      <screen x="0" y="0" width="2806" height="748" />
+    </state>
+    <state x="346" y="69" width="672" height="678" key="search.everywhere.popup/0.0.2806.748@0.0.2806.748" timestamp="1589836468485" />
+=======
+    <state width="700" height="643" key="SwitcherDM/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589679487204" />
+    <state x="2543" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1589679700724">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589679700724" />
+    <state x="2605" y="454" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589661848497">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2605" y="454" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589661848497" />
+>>>>>>> Stashed changes
+>>>>>>> d9b19116debd403958249b061953681c36f106a9
   </component>
 </project>
