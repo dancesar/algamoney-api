@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3213-00fe-462f-8675-446ac319cc79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/OAuthSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algamoney-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algamoney-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/LancamentoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dancesar/algamoney/api/resource/LancamentoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dancesar/algamoney/api/config/ResourceServerConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <workItem from="1589492270382" duration="6909000" />
       <workItem from="1589502873432" duration="5256000" />
       <workItem from="1589513933681" duration="4979000" />
-      <workItem from="1589830106534" duration="10462000" />
+      <workItem from="1589830106534" duration="27132000" />
     </task>
     <servers />
   </component>
@@ -122,6 +118,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1894" y="160" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1589916394961">
+      <screen x="0" y="0" width="2806" height="748" />
+    </state>
+    <state x="1894" y="160" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.2806.748@0.0.2806.748" timestamp="1589916394961" />
     <state width="1440" height="244" key="GridCell.Tab.0.bottom" timestamp="1589840172705">
       <screen x="0" y="0" width="2806" height="748" />
     </state>
@@ -175,13 +175,18 @@
     </state>
     <state x="322" y="18" key="SettingsEditor/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589220312174" />
     <state x="1590" y="84" key="SettingsEditor/0.0.1366.748/1366.0.1440.900@1366.0.1440.900" timestamp="1589214488079" />
-    <state width="498" height="445" key="SwitcherDM" timestamp="1589499101757">
-      <screen x="0" y="0" width="1366" height="748" />
-    </state>
-    <state width="498" height="445" key="SwitcherDM/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589499101757" />
-    <state x="346" y="69" width="672" height="678" key="search.everywhere.popup" timestamp="1589836468485">
+    <state width="1023" height="456" key="SwitcherDM" timestamp="1589914616552">
       <screen x="0" y="0" width="2806" height="748" />
     </state>
-    <state x="346" y="69" width="672" height="678" key="search.everywhere.popup/0.0.2806.748@0.0.2806.748" timestamp="1589836468485" />
+    <state width="498" height="445" key="SwitcherDM/0.0.1366.748/1366.0.1440.900@0.0.1366.748" timestamp="1589499101757" />
+    <state width="1023" height="456" key="SwitcherDM/0.0.2806.748@0.0.2806.748" timestamp="1589914616552" />
+    <state x="1913" y="367" width="335" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589912241121">
+      <screen x="0" y="0" width="2806" height="748" />
+    </state>
+    <state x="1913" y="367" width="335" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2806.748@0.0.2806.748" timestamp="1589912241121" />
+    <state x="346" y="69" width="672" height="678" key="search.everywhere.popup" timestamp="1589912386713">
+      <screen x="0" y="0" width="2806" height="748" />
+    </state>
+    <state x="346" y="69" width="672" height="678" key="search.everywhere.popup/0.0.2806.748@0.0.2806.748" timestamp="1589912386713" />
   </component>
 </project>
