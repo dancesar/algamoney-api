@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:15432/algamoney-api
+    url: jdbc:postgresql://192.168.0.1:5432/algamoney-api
     password: Postgres2020!
     username: postgres
     hikari:
